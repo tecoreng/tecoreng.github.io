@@ -1,0 +1,409 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body,
+html {
+  background: #01132e !important;
+  color: #ffffff !important;
+  font-family: "Poppins";
+  font-style: normal;
+}
+a,
+li {
+  text-decoration: none !important;
+  color: inherit !important;
+  list-style-type: unset !important;
+
+  &:hover {
+    color: unset !important;
+  }
+}
+img {
+  max-width: 100%;
+  min-height: 100%;
+}
+header {
+  padding: 10px 0;
+}
+
+.contactUsBtn {
+  font-size: 18px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 6px;
+  background: linear-gradient(94.76deg, #f47b55 1.49%, #ff3d00 95.34%);
+  color: #ffffff;
+}
+
+.homeBanner {
+  background: url(./asset/homeBanner.png) #ffffff no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 624px;
+}
+
+.projectTxt {
+  text-align: center;
+  margin: 70px 0;
+}
+.projectTxtQue {
+  font-size: 35px;
+}
+.projectTxtAns {
+  font-size: 24px;
+  padding-top: 30px;
+  width: 60%;
+  margin: auto;
+}
+.how-we-engage-box-main {
+  margin: 70px 0;
+  gap: 20px;
+  justify-content: space-between;
+}
+.how-we-engage-desc {
+  margin-top: 45px;
+  width: 60%;
+}
+.how-we-engage-box {
+  box-shadow: 0 12px 17px #01132e;
+  border-radius: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(#112542, #112542) padding-box,
+    linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.58) 0,
+        rgba(1, 19, 46, 0) 100%
+      )
+      border-box;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  padding: 40px 30px;
+  width: 100%;
+}
+.box-two {
+  box-shadow: none !important;
+  background: linear-gradient(#01132e, #01132e) padding-box,
+    linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.58) 0,
+        rgba(1, 19, 46, 0) 100%
+      )
+      border-box;
+}
+.how-we-engage-box img {
+  width: 51.33px;
+}
+.technologiesExpertise {
+  margin: 80px 0;
+}
+.technologiesTitle {
+  font-size: 56px;
+  letter-spacing: 5px;
+}
+.techTabPanel {
+  padding-top: 50px;
+}
+.tab-content {
+  margin-top: 60px;
+  box-shadow: rgb(1, 19, 46) 0px 12px 17px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  background: linear-gradient(
+        144.66deg,
+        #26426b 18.27%,
+        rgba(0, 23, 56, 0.78) 113.96%
+      )
+      padding-box padding-box,
+    linear-gradient(rgba(255, 255, 255, 0.58) 0px, rgba(1, 19, 46, 0) 100%)
+      border-box border-box;
+}
+.experties {
+  font-family: PoppinsBold;
+  font-size: 130.362px;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -97.72%,
+    #ffffff 424.23%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.1;
+  line-height: 92px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: default;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* Nav-tab Effect */
+.nav-tabs {
+  border-bottom: 3px solid rgba(189, 189, 189, 1) !important;
+}
+.nav-tabs .nav-item {
+  margin-bottom: -2px;
+}
+.nav-tabs .nav-item button {
+  background: transparent !important;
+}
+.nav-tabs .nav-link {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding: 15px 25px !important;
+}
+.nav-tabs .nav-link.active {
+  border-color: rgba(189, 189, 189, 1) rgba(189, 189, 189, 1) transparent
+    rgba(189, 189, 189, 1) !important;
+  background-color: rgb(1, 19, 46) !important;
+}
+.nav-tabs .nav-link.active .navTabHeading {
+  background: linear-gradient(90deg, #ff610b 7.69%, #fcb7a2 95.38%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+}
+.nav-tabs .nav-link {
+  border: 3px solid transparent !important;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+/* Nav-tab Effect */
+.connectWithUs {
+  margin: 60px 0;
+}
+
+.connectWithUsText .firstText {
+  font-size: 25px;
+}
+.connectWithUsText .secondText {
+  font-weight: 700;
+  font-size: 40px;
+}
+.connectWithUsText .thirdText {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 25px;
+  text-transform: capitalize;
+}
+.connectWithUsBox {
+  padding: 30px 60px;
+  background: #082042;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: rgba(17, 37, 66, 1);
+  padding: 40px 0;
+}
+.footerLogo {
+  width: 125px;
+}
+.copyrightsSocials {
+  gap: 20px;
+  justify-content: end;
+}
+.copyrightsSocials img {
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  .logo {
+    width: 142px;
+  }
+  .contactUsBtn {
+    font-size: 14px;
+    margin: 15px auto !important;
+  }
+  .homeBanner {
+    height: 170px;
+  }
+  .projectTxt {
+    margin: 35px 0;
+  }
+  .projectTxtQue {
+    font-size: 22px;
+  }
+  .projectTxtAns {
+    font-size: 16px;
+    padding-top: 15px;
+    width: 100%;
+  }
+  .how-we-engage-box-main {
+    margin: 40px 0px;
+    flex-direction: column;
+  }
+  .how-we-engage-box {
+    font-size: 18px;
+    padding: 20px 15px;
+    text-align: center;
+  }
+  .how-we-engage-desc {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .experties {
+    font-size: 36px;
+    line-height: 35px;
+  }
+  /* nav effect */
+  .nav-tabs .nav-link {
+    font-size: 14px;
+    line-height: unset;
+    padding: 8px !important;
+  }
+  .nav-tabs .nav-link.active .navTabHeading {
+    font-size: 18px;
+    line-height: unset;
+  }
+  /* nav effect */
+
+  .connectWithUs {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+  .connectWithUsText {
+    text-align: center;
+  }
+  .connectWithUsText .firstText {
+    font-size: 18px;
+  }
+  .connectWithUsText .secondText {
+    font-size: 24px;
+  }
+  .connectWithUsText .thirdText {
+    font-size: 24px;
+    letter-spacing: 12px;
+  }
+  .connectWithUsBox {
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 25px;
+  }
+
+  .technologiesExpertise {
+    margin: 40px 0;
+  }
+  .technologiesTitle {
+    font-size: 28px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+  .copyrights {
+    flex-direction: column-reverse;
+  }
+  .copyrightsSocials {
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 900px) {
+  .logo {
+    width: 150px;
+  }
+  .homeBanner {
+    height: 335px;
+  }
+  .projectTxt {
+    margin: 45px 0;
+  }
+  .projectTxtQue {
+    font-size: 25px;
+  }
+  .projectTxtAns {
+    font-size: 18px;
+    padding-top: 20px;
+    width: 85%;
+  }
+  .how-we-engage-box-main {
+    margin: 40px 0px;
+  }
+  .how-we-engage-box {
+    font-size: 18px;
+    padding: 20px 15px;
+    text-align: center;
+  }
+  .how-we-engage-desc {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .experties {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  /* nav effect */
+  .nav-tabs .nav-link {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 18px !important;
+  }
+  .nav-tabs .nav-link.active .navTabHeading {
+    font-size: 24px;
+    line-height: unset;
+  }
+  /* nav effect */
+
+  .connectWithUsText .firstText {
+    font-size: 18px;
+  }
+  .connectWithUsText .secondText {
+    font-size: 32px;
+  }
+  .connectWithUsText .thirdText {
+    font-size: 32px;
+  }
+  .connectWithUsBox {
+    padding: 15px 30px;
+    border-radius: 15px;
+  }
+
+  .technologiesTitle {
+    font-size: 35px;
+  }
+
+  .footerLogo {
+    width: 100px;
+  }
+  .copyrightsSocials {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1300px) {
+  .homeBanner {
+    height: 451px;
+  }
+  .projectTxtAns {
+    width: 80%;
+  }
+  .experties {
+    font-size: 90px;
+    line-height: 65px;
+  }
+}
