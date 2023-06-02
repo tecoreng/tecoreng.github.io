@@ -40,7 +40,7 @@ header {
 }
 
 .homeBanner {
-  background: url(./asset/homeBanner.png) #ffffff no-repeat;
+  background: url(./asset/homeBanner.svg) #ffffff no-repeat;
   background-size: contain;
   background-position: center;
   width: 100%;
